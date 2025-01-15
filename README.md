@@ -15,7 +15,6 @@ On the first terminal, run a SITL instance from the PX4 Autopilot firmware.
 ```
 cd PX4-Autopilot/
 make px4_sitl gz_x500
-
 ```
 
 On the second terminal terminal, run the micro-ros-agent which will perform the mapping between Micro XRCE-DDS and RTPS. So that ROS2 Nodes are able to communicate with the PX4 micrortps_client.
